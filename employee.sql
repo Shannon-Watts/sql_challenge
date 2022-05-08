@@ -107,7 +107,7 @@ WHERE "Departments.Department_name" = 'Sales'
 OR "Departments.Department_name" = 'Development';
 
 SELECT "Last_name",
-COUNT("Last_name") AS "frequency"
+COUNT("Last_name")
 FROM "Employees"
 GROUP BY "Last_name"
 
